@@ -1,0 +1,52 @@
+@import 'functions';
+.container
+{
+  max-width: $website-width;
+  margin: auto;
+  padding: 0 1rem;
+  overflow: hidden;
+}
+
+%btn-shared
+{
+  display: inline-block;
+  padding: 0.75rem 2.5rem;
+  margin: 2.5rem;
+  transition: all ease-in-out 0.5s;
+  border-radius: 5px;
+
+}
+
+.btn
+{
+  &-dark
+  {
+    @extend %btn-shared;
+    background-color: $primary-color;
+    color: set-text-color($primary-color);    
+  }
+
+  &-dark:hover
+  {
+    background-color: $lite-color;
+    color: set-text-color($lite-color);
+  }
+
+  &-lite
+  {
+    @extend %btn-shared;
+    background-color: $lite-color;
+    color: set-text-color($lite-color);    
+  }
+
+  &-lite:hover
+  {
+    background-color: $primary-color;
+    color: set-text-color($primary-color);
+  }
+}
+
+
+
+
+
