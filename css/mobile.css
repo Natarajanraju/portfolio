@@ -5,9 +5,9 @@ body
 }
 
 
-#main-header .lead 
+#main-header .lead
 {
-  margin-top: 200px;
+  padding-top: 300px;
 }
 
 #main-header .lead h1
