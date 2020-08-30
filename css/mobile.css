@@ -1,0 +1,110 @@
+
+body
+{
+  overflow: auto;
+}
+
+
+#main-header .lead 
+{
+  margin-top: 200px;
+}
+
+#main-header .lead h1
+{
+  font-size: 2.5rem;
+  
+}
+
+#main-header .lead span
+{
+  font-size: 1.75rem;
+}
+
+#main-header .lead p
+{
+  font-size: 1rem;
+}
+
+#services
+{
+  flex-direction: column;
+  padding: 75px 0;
+  height: auto;
+  overflow: auto;
+}
+
+#services .services-container
+{
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  width: 90%;
+  grid-gap: 30px;
+  justify-content: flex-start;
+}
+
+
+#services .services-container .box .content
+{
+  padding: 30px 20px;
+  transform: translatey(-10px);
+  /* text-align: center; */
+  
+ 
+}
+
+#services .services-container .box .content h2
+{
+  display: none;
+}
+
+#services .services-container .box .content a
+{
+  transform: translatey(-20px);
+  visibility: visible;
+}
+
+/* #services .services-container .box .content li
+{
+  display: inline;
+  list-style: square;
+} */
+
+
+#social .grid-container
+{
+  grid-template-columns: 1fr;
+  
+}
+
+.icons
+{
+  padding: 0 20px;
+}
+
+.grid-container .icons ul
+{
+  flex-direction: row;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+    
+}
+
+#social .grid-container .contact-form form
+{
+  padding: 1rem;
+  width: 90%;
+  max-width: 500px;
+
+  
+}
+
+
+
+
+
+
+
+
